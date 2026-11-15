@@ -1,0 +1,21 @@
+PAKET MAHASISWA | PERTEMUAN 09 | LARAVEL DUSK
+==============================================
+Mulai dari jobsheets/Jobsheet_P09_Laravel_Pemula_ID.docx.
+
+PENTING: Waktu praktik 120 menit hanya untuk kegiatan inti. Persiapan pertama kali (PHP, Composer, Google Chrome, internet, Laravel/Dusk) selesai SEBELUM praktik.
+
+1. Ekstrak ZIP ini di folder lokal yang mudah dicari.
+2. Buka Terminal/PowerShell pada folder hasil ekstrak yang berisi installer/ dan project_files/.
+3. Periksa persiapan: php installer/cek_prasyarat.php
+4. Pasang proyek (cukup sekali): php installer/pasang_proyek.php
+5. Buka Terminal A:
+   cd sib-qa-lab
+   php artisan serve --host=127.0.0.1 --port=8000
+6. Buka browser: http://127.0.0.1:8000
+7. Buka Terminal B pada folder sib-qa-lab, kemudian:
+   php artisan dusk --filter=test_contoh_halaman_produk
+8. Ikuti langkah di Jobsheet 09, isi jawaban di DOCX, dan simpan folder sib-qa-lab untuk Pertemuan 10.
+
+CATATAN: Berkas tests/Unit/ ikut disiapkan karena pertemuan 10 harus melanjutkan proyek yang sama. Jangan mengerjakan file Unit pada Pertemuan 09.
+Jangan menghapus folder sib-qa-lab. ZIP tidak memuat dependensi vendor/ atau ChromeDriver; Composer mengunduhnya saat persiapan.
+Hanya untuk praktik lokal, jangan diunggah ke server publik.

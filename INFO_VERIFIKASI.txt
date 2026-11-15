@@ -1,0 +1,17 @@
+SIB QA LAB | STATUS VERIFIKASI 2026-11-04
+
+PASS: Semua file PHP dalam paket lolos pemeriksaan sintaks (php -l).
+PASS: Logika ShopRules diuji langsung di PHP: 99999/nonmember=0,
+100000/member=10000, 100000/nonmember=5000, 60000=0,
+negative=InvalidArgumentException, cart kopi=2 + teh=1 subtotal=65000.
+PASS: Keempat jobsheet DOCX berhasil dirender dan diperiksa tata letaknya.
+BELUM TERVERIFIKASI: Full Laravel Dusk / PHPUnit setelah composer install
+karena Composer tidak tersedia di lingkungan pembuatan.
+
+Paket menggunakan Laravel 12 dan Dusk yang diunduh Composer pertama kali;
+ZIP sengaja tidak memuat vendor/ atau driver Chrome. Perlu internet dan
+persiapan sebelum 120 menit praktikum.
+
+Referensi: https://laravel.com/docs/12.x/installation
+https://laravel.com/docs/12.x/dusk
+https://laravel.com/docs/12.x/testing
