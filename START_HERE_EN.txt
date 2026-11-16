@@ -1,0 +1,17 @@
+STUDENT PACKAGE | MEETING 09 | LARAVEL DUSK
+============================================
+Start with jobsheets/Worksheet_P09_Laravel_Beginner_EN.docx.
+
+Complete first-time setup (PHP, Composer, Chrome, Laravel/Dusk) BEFORE the 120-minute lab session.
+
+1. Extract the ZIP into a simple local folder.
+2. Open Terminal/PowerShell in the extracted folder containing installer/ and project_files/.
+3. Run: php installer/cek_prasyarat.php
+4. One-time setup: php installer/pasang_proyek.php
+5. In Terminal A: cd sib-qa-lab, then php artisan serve --host=127.0.0.1 --port=8000
+6. Open http://127.0.0.1:8000 in a browser.
+7. In Terminal B (inside sib-qa-lab): php artisan dusk --filter=test_contoh_halaman_produk
+8. Follow Worksheet 09, fill out the DOCX, and KEEP the sib-qa-lab project for Meeting 10.
+
+The tests/Unit folder is pre-installed solely to support Meeting 10. Do not work on unit tests during Meeting 09.
+Dependencies vendor/ and ChromeDriver are downloaded during setup. This is a local practice app only.
